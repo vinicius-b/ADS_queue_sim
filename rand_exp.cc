@@ -14,7 +14,7 @@ rand_exp::rand_exp(){
 }
 
 double rand_exp::exp(int mean){
-	double seed = rand() % 1;
+	int seed = rand() % 10;
 	double exp;
 
 	exp = (1-seed)/mean;
